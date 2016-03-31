@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC270ACE1CACD8DE00FC9001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC270ACD1CACD8DE00FC9001 /* main.m */; };
+		BC270AD11CACD8DE00FC9001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC270AD01CACD8DE00FC9001 /* AppDelegate.m */; };
+		BC270AD41CACD8DE00FC9001 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC270AD31CACD8DE00FC9001 /* ViewController.m */; };
+		BC270AD71CACD8DE00FC9001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC270AD51CACD8DE00FC9001 /* Main.storyboard */; };
+		BC270AD91CACD8DE00FC9001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC270AD81CACD8DE00FC9001 /* Assets.xcassets */; };
+		BC270ADC1CACD8DE00FC9001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC270ADA1CACD8DE00FC9001 /* LaunchScreen.storyboard */; };
+		BC270AE71CACD8DE00FC9001 /* erwerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC270AE61CACD8DE00FC9001 /* erwerTests.m */; };
+		BC270AF21CACD8DE00FC9001 /* erwerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC270AF11CACD8DE00FC9001 /* erwerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC270AE31CACD8DE00FC9001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC270AC11CACD8DE00FC9001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC270AC81CACD8DE00FC9001;
+			remoteInfo = erwer;
+		};
+		BC270AEE1CACD8DE00FC9001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC270AC11CACD8DE00FC9001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC270AC81CACD8DE00FC9001;
+			remoteInfo = erwer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC270AC91CACD8DE00FC9001 /* erwer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = erwer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC270ACD1CACD8DE00FC9001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC270ACF1CACD8DE00FC9001 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC270AD01CACD8DE00FC9001 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC270AD21CACD8DE00FC9001 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC270AD31CACD8DE00FC9001 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC270AD61CACD8DE00FC9001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC270AD81CACD8DE00FC9001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC270ADB1CACD8DE00FC9001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC270ADD1CACD8DE00FC9001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC270AE21CACD8DE00FC9001 /* erwerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = erwerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC270AE61CACD8DE00FC9001 /* erwerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = erwerTests.m; sourceTree = "<group>"; };
+		BC270AE81CACD8DE00FC9001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC270AED1CACD8DE00FC9001 /* erwerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = erwerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC270AF11CACD8DE00FC9001 /* erwerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = erwerUITests.m; sourceTree = "<group>"; };
+		BC270AF31CACD8DE00FC9001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC270AC61CACD8DE00FC9001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC270ADF1CACD8DE00FC9001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC270AEA1CACD8DE00FC9001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC270AC01CACD8DE00FC9001 = {
+			isa = PBXGroup;
+			children = (
+				BC270ACB1CACD8DE00FC9001 /* erwer */,
+				BC270AE51CACD8DE00FC9001 /* erwerTests */,
+				BC270AF01CACD8DE00FC9001 /* erwerUITests */,
+				BC270ACA1CACD8DE00FC9001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC270ACA1CACD8DE00FC9001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC270AC91CACD8DE00FC9001 /* erwer.app */,
+				BC270AE21CACD8DE00FC9001 /* erwerTests.xctest */,
+				BC270AED1CACD8DE00FC9001 /* erwerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC270ACB1CACD8DE00FC9001 /* erwer */ = {
+			isa = PBXGroup;
+			children = (
+				BC270ACF1CACD8DE00FC9001 /* AppDelegate.h */,
+				BC270AD01CACD8DE00FC9001 /* AppDelegate.m */,
+				BC270AD21CACD8DE00FC9001 /* ViewController.h */,
+				BC270AD31CACD8DE00FC9001 /* ViewController.m */,
+				BC270AD51CACD8DE00FC9001 /* Main.storyboard */,
+				BC270AD81CACD8DE00FC9001 /* Assets.xcassets */,
+				BC270ADA1CACD8DE00FC9001 /* LaunchScreen.storyboard */,
+				BC270ADD1CACD8DE00FC9001 /* Info.plist */,
+				BC270ACC1CACD8DE00FC9001 /* Supporting Files */,
+			);
+			path = erwer;
+			sourceTree = "<group>";
+		};
+		BC270ACC1CACD8DE00FC9001 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC270ACD1CACD8DE00FC9001 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC270AE51CACD8DE00FC9001 /* erwerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC270AE61CACD8DE00FC9001 /* erwerTests.m */,
+				BC270AE81CACD8DE00FC9001 /* Info.plist */,
+			);
+			path = erwerTests;
+			sourceTree = "<group>";
+		};
+		BC270AF01CACD8DE00FC9001 /* erwerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC270AF11CACD8DE00FC9001 /* erwerUITests.m */,
+				BC270AF31CACD8DE00FC9001 /* Info.plist */,
+			);
+			path = erwerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC270AC81CACD8DE00FC9001 /* erwer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC270AF61CACD8DE00FC9001 /* Build configuration list for PBXNativeTarget "erwer" */;
+			buildPhases = (
+				BC270AC51CACD8DE00FC9001 /* Sources */,
+				BC270AC61CACD8DE00FC9001 /* Frameworks */,
+				BC270AC71CACD8DE00FC9001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = erwer;
+			productName = erwer;
+			productReference = BC270AC91CACD8DE00FC9001 /* erwer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC270AE11CACD8DE00FC9001 /* erwerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC270AF91CACD8DE00FC9001 /* Build configuration list for PBXNativeTarget "erwerTests" */;
+			buildPhases = (
+				BC270ADE1CACD8DE00FC9001 /* Sources */,
+				BC270ADF1CACD8DE00FC9001 /* Frameworks */,
+				BC270AE01CACD8DE00FC9001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC270AE41CACD8DE00FC9001 /* PBXTargetDependency */,
+			);
+			name = erwerTests;
+			productName = erwerTests;
+			productReference = BC270AE21CACD8DE00FC9001 /* erwerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC270AEC1CACD8DE00FC9001 /* erwerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC270AFC1CACD8DE00FC9001 /* Build configuration list for PBXNativeTarget "erwerUITests" */;
+			buildPhases = (
+				BC270AE91CACD8DE00FC9001 /* Sources */,
+				BC270AEA1CACD8DE00FC9001 /* Frameworks */,
+				BC270AEB1CACD8DE00FC9001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC270AEF1CACD8DE00FC9001 /* PBXTargetDependency */,
+			);
+			name = erwerUITests;
+			productName = erwerUITests;
+			productReference = BC270AED1CACD8DE00FC9001 /* erwerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC270AC11CACD8DE00FC9001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = cuichenxi;
+				TargetAttributes = {
+					BC270AC81CACD8DE00FC9001 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					BC270AE11CACD8DE00FC9001 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BC270AC81CACD8DE00FC9001;
+					};
+					BC270AEC1CACD8DE00FC9001 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BC270AC81CACD8DE00FC9001;
+					};
+				};
+			};
+			buildConfigurationList = BC270AC41CACD8DE00FC9001 /* Build configuration list for PBXProject "erwer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC270AC01CACD8DE00FC9001;
+			productRefGroup = BC270ACA1CACD8DE00FC9001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC270AC81CACD8DE00FC9001 /* erwer */,
+				BC270AE11CACD8DE00FC9001 /* erwerTests */,
+				BC270AEC1CACD8DE00FC9001 /* erwerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC270AC71CACD8DE00FC9001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC270ADC1CACD8DE00FC9001 /* LaunchScreen.storyboard in Resources */,
+				BC270AD91CACD8DE00FC9001 /* Assets.xcassets in Resources */,
+				BC270AD71CACD8DE00FC9001 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC270AE01CACD8DE00FC9001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC270AEB1CACD8DE00FC9001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC270AC51CACD8DE00FC9001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC270AD41CACD8DE00FC9001 /* ViewController.m in Sources */,
+				BC270AD11CACD8DE00FC9001 /* AppDelegate.m in Sources */,
+				BC270ACE1CACD8DE00FC9001 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC270ADE1CACD8DE00FC9001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC270AE71CACD8DE00FC9001 /* erwerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC270AE91CACD8DE00FC9001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC270AF21CACD8DE00FC9001 /* erwerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC270AE41CACD8DE00FC9001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC270AC81CACD8DE00FC9001 /* erwer */;
+			targetProxy = BC270AE31CACD8DE00FC9001 /* PBXContainerItemProxy */;
+		};
+		BC270AEF1CACD8DE00FC9001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC270AC81CACD8DE00FC9001 /* erwer */;
+			targetProxy = BC270AEE1CACD8DE00FC9001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC270AD51CACD8DE00FC9001 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC270AD61CACD8DE00FC9001 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC270ADA1CACD8DE00FC9001 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC270ADB1CACD8DE00FC9001 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC270AF41CACD8DE00FC9001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC270AF51CACD8DE00FC9001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC270AF71CACD8DE00FC9001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = erwer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianfeng.erwer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC270AF81CACD8DE00FC9001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = erwer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianfeng.erwer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC270AFA1CACD8DE00FC9001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = erwerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianfeng.erwerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/erwer.app/erwer";
+			};
+			name = Debug;
+		};
+		BC270AFB1CACD8DE00FC9001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = erwerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianfeng.erwerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/erwer.app/erwer";
+			};
+			name = Release;
+		};
+		BC270AFD1CACD8DE00FC9001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = erwerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianfeng.erwerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = erwer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC270AFE1CACD8DE00FC9001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = erwerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianfeng.erwerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = erwer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC270AC41CACD8DE00FC9001 /* Build configuration list for PBXProject "erwer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC270AF41CACD8DE00FC9001 /* Debug */,
+				BC270AF51CACD8DE00FC9001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC270AF61CACD8DE00FC9001 /* Build configuration list for PBXNativeTarget "erwer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC270AF71CACD8DE00FC9001 /* Debug */,
+				BC270AF81CACD8DE00FC9001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC270AF91CACD8DE00FC9001 /* Build configuration list for PBXNativeTarget "erwerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC270AFA1CACD8DE00FC9001 /* Debug */,
+				BC270AFB1CACD8DE00FC9001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC270AFC1CACD8DE00FC9001 /* Build configuration list for PBXNativeTarget "erwerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC270AFD1CACD8DE00FC9001 /* Debug */,
+				BC270AFE1CACD8DE00FC9001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC270AC11CACD8DE00FC9001 /* Project object */;
+}
